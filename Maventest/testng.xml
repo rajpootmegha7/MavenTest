@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Google Apps">
+	<!-- <test name="Regression"> <classes> <class name="SafariTestTestNG"/> 
+		</classes> </test> -->
+	<test name="Params">
+		<parameter name="val1" value="20" />
+		<parameter name="val2" value="10" />
+		<classes>
+			<class name="ParametersTest" />
+		</classes>
+
+	</test>
+
+	<!-- Test -->
+</suite> <!-- Suite -->
